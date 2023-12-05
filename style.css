@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+    font-family: 'Jura', sans-serif;
+}
+
+
+.background-navbar{
+    background-color: black;
+}
+
+a{
+    color: grey;
+    text-decoration: none;
+}
+
+header{
+    background-image:linear-gradient(black,transparent,black),url(./media/header1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1,h3{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+h2{
+    color: #2B9DF4 ;
+}
+
+.white{
+    color: white;
+}
+
+.margine{
+    border-bottom: 2px solid white;
+}
+
+.margine-2{
+    border-bottom: 2px solid #2B9DF4;
+    width: 20%;
+}
+
+.url{
+    background-image: url(./media/luna.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.url-2{
+    background-image: url(./media/missile.png);
+    background-position: right;
+    background-size: cover;
+}
+
+.margine-3{
+    border-bottom: 2px solid #2B9DF4;
+    width: 70%;
+}
+
+.padding{
+    padding: 50px;
+}
+
+.footer{
+    height: 100vh;
+    background-image: url(./media/footer.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+    color: white;
+  }
+
+  .missile{
+    background-image: url(./media/missile.png);
+    background-position: right 0% bottom 5%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  @media screen and (max-width:670px){
+    .missile{
+        background: none;
+    }
+  }
